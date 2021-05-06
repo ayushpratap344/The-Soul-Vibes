@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>The Soul Vibes | Home </title>
+	<link rel="stylesheet" href="style3.css">
+    <meta name="theme-color" content="#000000">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="main">
+		<div class="progress_bar" id="Bar"></div>
+		<img src="img_bg.jpg" alt="" id="bg">
+
+		<!-- navbar part -->
+		<div class="navbar">
+			<a href="#" id="logo"><i class='bx bxs-bar-chart-alt-2' ></i>&nbsp;The Soul Vibes</a>
+            <a onclick="open_close_menu()" id="responsive_menu"><i class='bx bxs-chevron-down' ></i></a>
+
+			<div class="nav_content">
+				<li><a href="#">Home</a></li>
+				<li><a href="#top_tracks">Tracks</a></li>
+				<li><a href="#user_comments">Comments</a></li>
+				<li><a href="#contact_us">Contact Us</a></li>
+				<li><a href="#sign_up">Sign Up</a></li>
+			</div>
+
+            <a onclick="menu_action()" id="menu_btn"><i class='bx bx-menu-alt-left'></i></a>
+			<div class="side_menu">
+				<li><a href="#"><i class='bx bx-category'></i></a></li>
+				<li><a href="#"><i class='bx bx-tv'></i></a></li>
+				<li><a href="#"><i class='bx bxs-movie-play'></i></a></li>
+				<li><a href="#"><i class='bx bxs-message-square-detail'></i></a></li>
+				<li><a href="#"><i class='bx bx-merge'></i></a></li>
+			</div>
+		</div>
+        
+       <!--  mid part -->
+		<div class="mid_part">
+            
+
+			<div class="description">
+				<p id="A_name">Ayush Pratap Singh</p>
+				<p>Creator of the Website</p>
+				<br>
+				<div class="author_desc">
+				   <p></p>
+				</div>
+			</div>
+		</div>
+
+        <!-- tracks part -->
+		<div class="top_tracks" id="top_tracks">
+			<p id="heading"><i class='bx bxs-playlist'></i>&nbsp;&nbsp;Top Tracks</p>
+			<div id="track"></div>
+			
+			<div id="track">
+				<img src="song_img1.jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+
+				<audio src="1.mp3" id="music"></audio>
+
+				<div id="song_desc">
+				   <p>Yummy-Justin Bieber</p>
+				   <p>2020</p>
+				   <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				   <p id="message"></p>
+				</div>
+				<div id="actions_2">
+				  <p><a href="#"><i class='bx bx-share' ></i></a></p>
+				  <p><a href="2.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+            </div>
+
+			<div id="track">
+				<img src="song_img2.jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="2.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					<p>Dead Girl-Alan Walker & Au/Ra</p>
+				   <p>2021</p>
+				   <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				   <p id="message">New</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="1.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img3.jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="3.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Loco Contuigo-DJ Snake</p>
+				     <p>2019</p>
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				     <p id="message"></p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="3.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img4.jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="4.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Welcome to the Party-Diplo & Lil Pump</p>
+				     <p>2019</p>
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="4.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				<img src="song_img5.jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="5.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>GOAT-Diljith Dosanjh</p>
+				     <p>2021</p>
+                     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+                     <p id="message">New</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="5.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+            </div>
+            
+            <div id="track">
+				<img src="song_img6.jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+
+				<audio src="6.mp3" id="music"></audio>
+
+				<div id="song_desc">
+				   <p>Dil Chori-Yo Yo Honey Singh</p>
+				   <p>2019</p>
+				   <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				   <p id="message"></p>
+				</div>
+				<div id="actions_2">
+				  <p><a href="#"><i class='bx bx-share' ></i></a></p>
+				  <p><a href="6.mp3" download><i class='bx bx-download'></i></a></p>
+                </div>
+            </div>
+                
+                <div id="track">
+                    <img src="song_img7.jpg" alt="">
+                    <div id="actions">
+                        <a href="#"><i class='bx bx-heart' ></i></a>
+                        <a id="play_pause"><i class='bx bx-play'></i></a>
+                    </div>
+    
+                    <audio src="7.mp3" id="music"></audio>
+    
+                    <div id="song_desc">
+                       <p>Bom Diggy-Zack Knight & Jasmin Walia</p>
+                       <p>2019
+
+                       </p>
+                       <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+                       <p id="message"></p>
+                    </div>
+                    <div id="actions_2">
+                      <p><a href="#"><i class='bx bx-share' ></i></a></p>
+                      <p><a href="7.mp3" download><i class='bx bx-download'></i></a></p>
+                    </div>
+                </div>
+
+		</div>
+
+        <!-- user comments part -->
+		<div class="user_comments" id="user_comments">
+			<p id="heading"><i class='bx bx-comment-detail'></i>&nbsp;&nbsp;What they told Us</p>
+            
+           <div class="comments">
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;Dheeraj Kapoor</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>“I enjoyed this site. It was very easy to use and functional. The buttons are easy to find. I think this is a very good site and will continue to use it.”</p>
+           	 		<div id="social">
+           	 			
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;Megan Fawx</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>“Very impressive. I liked the fact that it was easy to use!”</p>
+           	 		<div id="social">
+           	 			
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;Sweetrowena</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>“It is nice, smooth and simple. Thank you. A real relief for a listener.”</p>
+           	 		<div id="social">
+           	 			
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	<div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;Lawrel Rock</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>"beautiful, well thought out heard many songs that I have never heard before and all absolutely love.
+                        heard many favorites      
+                        thank you so much!" </p>
+           	 		<div id="social">
+           	 			
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+		   </div>
+		</div>
+		   
+		<!--playlists part-->
+		   <div class="top_playlists" id="top_playlists">
+			<p id="heading"><i class="fa fa-spotify"></i>Trending Playlists on Spotify</p>
+			<br>
+			<br>
+			<div class="top_playlist">
+				<div class="playlist1">
+					<iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbLZ52XmnySJg" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
+			
+
+				
+
+				<div class="playlist2">
+					<iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbMDoHDwVN2tF" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
+			    
+			</div>
+		</div>	
+		<!-- popular creator part -->
+		<div class="popular_creator">
+           <p id="heading"><i class='bx bx-trophy' ></i>&nbsp;&nbsp;Popular Artists</p>
+            <div class="artists_list">
+
+            	<div class="artist">
+            		<img src="img.jpg" alt="">
+            		<div class="artist_desc">
+						<p>Post Malone</p>
+						<a href="https://www.youtube.com/channel/UCeLHszkByNZtPKcaVXOCOQQ" target="_blank">
+						<i style="font-size: 3em; color: red; " class="fa fa-youtube"></i>
+					</a>
+            		</div>
+            		
+            	</div>
+
+            	<div class="artist">
+            		<img src="img7.jpg" alt="">
+            		<div class="artist_desc">
+						<p>Divine</p>
+						<a href="https://www.youtube.com/channel/UCFX8go5jeQ_9_Pk9WFl5tmA" target="_blank">
+							<i style="font-size: 3em; color: red; " class="fa fa-youtube"></i>
+						</a>	
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img5.jpg" alt="">
+            		<div class="artist_desc">
+						<p>Lil Wayne</p>
+						<a href="https://www.youtube.com/channel/UCO9zJy7HWrIS3ojB4Lr7Yqw" target="_blank">
+							<i style="font-size: 3em; color: red; " class="fa fa-youtube"></i>
+						</a>
+            			
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img3.jpg" alt="">
+            		<div class="artist_desc">
+						<p>Eminem</p>
+						<a href="https://www.youtube.com/channel/UCfM3zsQsOnfWNUppiycmBuw" target="_blank">
+							<i style="font-size: 3em; color: red; " class="fa fa-youtube"></i>
+						</a>
+            			
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img4.jpg" alt="">
+            		<div class="artist_desc">
+						<p>Drake</p>
+						<a href="https://www.youtube.com/channel/UCByOQJjav0CUDwxCk-jVNRQ" target="_blank">
+							<i style="font-size: 3em; color: red; " class="fa fa-youtube"></i>
+						</a>
+            			
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img1.jpg" alt="">
+            		<div class="artist_desc">
+						<p>Justin Bieber</p>
+						<a href="https://www.youtube.com/channel/UCIwFjwMjI0y7PDBVEO9-bkQ" target="_blank">
+							<i style="font-size: 3em; color: red; " class="fa fa-youtube"></i>
+						</a>
+            			
+            		</div>
+            	</div>
+
+            	<div class="artist">
+            		<img src="img2.jpg" alt="">
+            		<div class="artist_desc">
+						<p>Selena Gomez</p>
+						<a href="https://www.youtube.com/channel/UCPNxhDvTcytIdvwXWAm43cA" target="_blank">
+							<i style="font-size: 3em; color: red; " class="fa fa-youtube"></i>
+						</a>
+            			
+            		</div>
+            	</div>
+
+            </div>
+		</div>
+
+        <!-- footer part -->
+		<div class="footer">
+			<a id="logo"><i class='bx bxs-bar-chart-alt-2' ></i>&nbsp;The Soul Vibes</a>
+			<div class="social_handle">
+				<a href="https://mobile.twitter.com/Ayushpr85796857" target="_blank">
+				<i class='bx bxl-twitter' ></i>
+			    </a>
+				<a href="https://github.com/ayushpratap344" target="_blank">
+				<i class='bx bxl-github'></i>
+				</a>
+				<a href="https://instagram.com/ra_ayush_._" target="_blank">
+				<i class="fa fa-instagram"></i>
+			    </a>
+			</div>
+		</div>
+
+	</div>
+
+  <!-- javascript file -->
+  <script src="main.js"></script>
+</body>
+</html>
