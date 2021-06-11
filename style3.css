@@ -173,6 +173,11 @@ body{
 	font-size: 1.1em;
 }
 
+.nav_content li:nth-last-child(2) a{
+	color: #fff;
+	font-size: 1.1em;
+}
+
 
 
 .side_menu{
