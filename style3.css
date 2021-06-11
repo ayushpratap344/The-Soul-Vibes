@@ -155,6 +155,13 @@ body{
 	border-radius: 5px;
 	background:  #E91E63;
 }
+
+.nav_content li:nth-last-child(2){
+	padding: 5px 12px;
+	border-radius: 5px;
+	background:  #E91E63;
+}
+
 .nav_content li a{
 	text-decoration: none;
 	color: #ccc;
